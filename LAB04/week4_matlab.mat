@@ -1,4 +1,4 @@
-```
+
         clc;
         clear all;
         close all;
@@ -58,4 +58,4 @@
         [~, index_corr] = max(corr(zero_crossing_index:end));
         index_corr = zero_crossing_index + index_corr;
         display(60/(index_corr/25));
-```
+
